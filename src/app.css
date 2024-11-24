@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  font-size: 18;
+  padding: 10;
+  border-radius: 5;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-outline {
+  border-width: 1;
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+
+.input {
+  font-size: 16;
+  padding: 10;
+  margin-bottom: 10;
+}
+
+.input-rounded {
+  border-radius: 5;
+  border-width: 1;
+  border-color: #e0e0e0;
+}
